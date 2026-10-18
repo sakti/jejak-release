@@ -1,6 +1,6 @@
 # jejak releases
 
-macOS builds of [Jejak](https://github.com/sakti/jejak), a desktop viewer for
+Apple silicon macOS builds of Jejak, a desktop viewer for
 OpenTelemetry traces, metrics and logs, and a Homebrew tap to install them.
 
 ## Install with Homebrew
@@ -16,8 +16,8 @@ Upgrade with `brew upgrade jejak`.
 ## Download
 
 Each [release](https://github.com/sakti/jejak-release/releases) has a
-`.tar.gz` archive for Apple silicon (`aarch64-apple-darwin`) and Intel
-(`x86_64-apple-darwin`) Macs, and a `SHA256SUMS` file.
+`.tar.gz` archive for Apple silicon Macs (`aarch64-apple-darwin`) and a
+`SHA256SUMS` file. Intel Macs are not supported.
 
 The binaries are not notarized. If you download an archive with a browser,
 macOS quarantines it; remove the quarantine before the first run:
